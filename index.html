@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+    <head>
+       <title>CSS Grid System</title> 
+       <style>
+           .wrapper{
+               display: grid;
+               grid-template-columns:70% 30%; 
+               grid-column-gap:1em;
+               grid-row-gap:1em;
+
+           }
+            .wrapper > div {
+                background-color: lightgray;
+                padding: 5px;
+            }
+            .wrapper > div:nth-child(odd){
+                background-color:gray;
+            }
+       </style>
+    </head>
+    <body>
+      <div class="wrapper">
+          <div>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequuntur adipisci voluptate veritatis harum libero deserunt consequatur expedita natus, quis! Voluptas a commodi, amet veritatis fugiat numquam laudantium vero rem id natus. Dolorum, consequatur. Sed recusandae animi incidunt distinctio dicta. Voluptates, officia ad hic iste, illum rem autem quod quae vel earum debitis nihil praesentium quibusdam esse dicta eos, harum provident est error! Dolores necessitatibus suscipit vitae eum quasi recusandae nesciunt incidunt assumenda aperiam aliquid, quam quas in. Cumque, consequuntur.
+          </div>
+            <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quibusdam harum similique quaerat omnis impedit asperiores quia ipsum commodi incidunt, voluptates dolorem! Explicabo asperiores, placeat impedit quisquam repellat, debitis vitae.
+            </div>
+             <div>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequuntur adipisci voluptate veritatis harum libero deserunt consequatur expedita natus, quis! Voluptas a commodi, amet veritatis fugiat numquam laudantium vero rem id natus. Dolorum, consequatur. Sed recusandae animi incidunt distinctio dicta. Voluptates, officia ad hic iste, illum rem autem quod quae vel earum debitis nihil praesentium quibusdam esse dicta eos, harum provident est error! Dolores necessitatibus suscipit vitae eum quasi recusandae nesciunt incidunt assumenda aperiam aliquid, quam quas in. Cumque, consequuntur.
+          </div>
+            <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quibusdam harum similique quaerat omnis impedit asperiores quia ipsum commodi incidunt, voluptates dolorem! Explicabo asperiores, placeat impedit quisquam repellat, debitis vitae.
+            </div>
+        
+      </div>
+    </body>
+</html>
